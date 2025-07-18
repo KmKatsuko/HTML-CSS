@@ -11,3 +11,35 @@ header > h1 {
 header > nav > a {
     width: 90vw;
 }
+
+main {
+    background: linear-gradient(to right, black, rgb(73, 73, 73));
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px white;
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    flex-shrink: 1;
+}
+
+main > p {
+    rotate: -20deg;
+    font-size: 11px;
+    width: 350px;
+    margin-right: 100px;
+      text-shadow:
+    0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 0, 98),
+    0 0 20px rgb(255, 0, 128),
+    0 0 40px #0ff;
+}
+
+main > h2 {
+    color: white;
+    rotate: -20deg;
+    font-size: 35px;
+}
